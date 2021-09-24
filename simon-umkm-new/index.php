@@ -479,8 +479,15 @@ function rupiah(x) {
         $("#nama_produk").val(data[0].nama_produk);
         $("#harga_produk").val(Math.round(harga));
         $("#diskon_produk").val(diskon);
+        
+        //lama
+        // $("#jumlah_produk").attr({
+        //    "max" : data[0].jumlah_stok,        // substitute your own
+        // });
+
+        //baru
         $("#jumlah_produk").attr({
-           "max" : data[0].jumlah_stok,        // substitute your own
+           "max" : data[0].total_stok,        // substitute your own
         });
       });
     });
