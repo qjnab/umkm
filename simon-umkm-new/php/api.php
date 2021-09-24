@@ -4,7 +4,13 @@ $db = new db();
 session_start();
 if (isset($_GET['get_barang'])) {
 	// echo "select * from produk inner join stok on produk.id_produk = stok.id_produk  where produk.id_produk = ".$_GET['id'];
-	$produk = $db->manual_query("select * from produk left join diskon on diskon.id_produk = produk.id_produk inner join stok on produk.id_produk = stok.id_produk  where produk.id_produk = ".$_GET['id']);
+
+	// query lama
+	// $produk = $db->manual_query("select * from produk left join diskon on diskon.id_produk = produk.id_produk inner join stok on produk.id_produk = stok.id_produk  where produk.id_produk = ".$_GET['id']);
+
+	// query baru
+	$produk = $db->manual_query("select produk.id_produk, produk.nama_produk, produk.foto_produk, produk.harga_produk, diskon.id_diskon, diskon.jumlah_diskon, stok.jumlah_stok, ((select sum(p1.jumlah_barang_purchase) from purchase p1 where p1.id_barang = produk.id_produk and p1.jenis_purchase = '+') - (select sum(p2.jumlah_barang_purchase) sum from purchase p2 where p2.id_barang = produk.id_produk and ((p2.jenis_purchase = '-') or (p2.exp_date <= now() and p2.exp_date != '0000-00-00')))) total_stok from produk left join diskon on diskon.id_produk = produk.id_produk inner join stok on produk.id_produk = stok.id_produk where produk.id_produk = ".$_GET['id']);
+
 	if ($produk !== null) {
 		# code...
 		echo json_encode($produk);

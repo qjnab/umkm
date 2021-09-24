@@ -56,11 +56,18 @@ if (isset($_POST['insert'])) {
 		}
 		// echo "select id_umkm where nama_umkm = '".$_POST['nama_umkm']."' and nik_umkm = '".$_POST['nik_umkm']."'";
 		$db->insert('produk',$data);
+		
+		$tambahdataproduk  = array(
+			'stok_awal' => $_GET['jumlah_stok_awal']
+		);
+		$db->insert('stok',$tambahdataproduk);
 		// var_dump($res);
 		header("Location: ../index.php?content=profile_umkm&id_umkm=".$_POST['id_umkm']."&pesan=Produk ".$_POST['nama_produk']." berhasil ditambahkan");
 	}else{
 		echo "upload gagal";
 	}
+
+	
 }
 if (isset($_GET['jual'])) {
 	# code...

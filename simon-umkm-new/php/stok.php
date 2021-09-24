@@ -16,15 +16,14 @@ if (isset($_GET['plus'])) {
 		'harga_total_purchase' => 0, 
 		'id_transaksi' => 0, 
 		'jenis_purchase' => "+",
-		'keterangan_purchase' => $_GET['keterangan'],
-		'exp_date' => $_GET['exp_date']
+		'keterangan_purchase' => $_GET['keterangan']
 	);
 
-	if (isset($_GET['exp_date'])) {
-		$datapurchase['exp_date'] = $_GET['exp_date'];
+	if (isset($_GET['exp'])) {
+		$datapurchase['exp_date'] = $_GET['exp'];
 	}
-	echo json_encode($_GET['id_produk']);
-	exit;
+	// echo json_encode($_GET['id_produk']);
+	// exit;
 	$datastok = $db->manual_query("select * from stok where id_produk = ".$_GET['id_produk'])[0];
 		// $stok = 
 	$stok = $_GET['jumlah'] + $datastok['jumlah_stok'];   

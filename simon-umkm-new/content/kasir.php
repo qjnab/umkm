@@ -1,5 +1,10 @@
 <?php 
-$produk = $db->manual_query("select * from produk inner join umkm on produk.id_umkm = umkm.id_umkm where status_produk = 1");
+// query lama
+// $produk = $db->manual_query("select * from produk inner join umkm on produk.id_umkm = umkm.id_umkm where status_produk = 1");
+
+// query baru
+$produk = $db->manual_query("select produk.id_produk, produk.nama_produk, produk.harga_produk, produk.satuan_produk, produk.produksi_produk, produk.kategori_produk, umkm.nama_umkm from produk inner join umkm on produk.id_umkm = umkm.id_umkm where status_produk = 1 and ((select sum(p1.jumlah_barang_purchase) from purchase p1 where p1.id_barang = produk.id_produk and p1.jenis_purchase = '+') - (select sum(p2.jumlah_barang_purchase) sum from purchase p2 where p2.id_barang = produk.id_produk and ((p2.jenis_purchase = '-') or (p2.exp_date <= now() and p2.exp_date != '0000-00-00')))) > 0");
+
 $trx = $db->manual_query("select * from transaksi where date(tanggal_transaksi) = date(now()) order by tanggal_transaksi desc");
 $voucher = $db->manual_query("select * from voucher where status_voucher = 0 and tanggal_voucher > now()");
 ?>

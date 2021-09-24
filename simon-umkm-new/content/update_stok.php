@@ -1,5 +1,10 @@
 <?php 
-$produk = $db->manual_query("select * from produk inner join stok on stok.id_produk = produk.id_produk inner join umkm on produk.id_umkm = umkm.id_umkm where status_produk = 1");
+// query lama
+// $produk = $db->manual_query("select * from produk inner join stok on stok.id_produk = produk.id_produk inner join umkm on produk.id_umkm = umkm.id_umkm where status_produk = 1");
+
+// query baru
+$produk = $db->manual_query("select produk.id_produk, produk.nama_produk, produk.harga_produk, produk.satuan_produk, produk.produksi_produk, produk.kategori_produk, umkm.nama_umkm, stok.jumlah_stok, ((select sum(p1.jumlah_barang_purchase) from purchase p1 where p1.id_barang = produk.id_produk and p1.jenis_purchase = '+') - (select sum(p2.jumlah_barang_purchase) sum from purchase p2 where p2.id_barang = produk.id_produk and ((p2.jenis_purchase = '-') or (p2.exp_date <= now() and p2.exp_date != '0000-00-00')))) total_stok, (select p3.exp_date from purchase p3 where p3.id_barang = produk.id_produk and p3.exp_date != '0000-00-00' and p3.exp_date > now() and p3.jenis_purchase = '+' order by p3.exp_date asc limit 1) exp_date from produk inner join stok on stok.id_produk = produk.id_produk inner join umkm on produk.id_umkm = umkm.id_umkm where status_produk = 1");
+
 $dataajust = $db->manual_query("select * from purchase inner join produk on produk.id_produk = purchase.id_barang where id_transaksi = 0 order by tanggal_purchase desc");
 $umkm = $db->manual_query("select * from umkm inner join kategori on umkm.kategori_umkm = kategori.id_kategori inner join binaan on umkm.binaan_umkm = binaan.id_binaan where umkm.binaan_umkm = 1");
 $kategori = $db->manual_query("select * from kategori");
@@ -99,47 +104,52 @@ foreach ($kategori as $key => $value) {
 								<tr>
 									<td><?php echo $no ?></td>
 									<td><?php echo $value['nama_produk'] ?></td>
-									<td><?php echo $value['jumlah_stok'] - ($expired && $expired[0]['sum'] ? $expired[0]['sum'] : 0) ?></td>
+									<!-- <td><?php echo $value['jumlah_stok'] - ($expired && $expired[0]['sum'] ? $expired[0]['sum'] : 0) ?></td> -->
+									<td><?php echo $value['total_stok'] ?></td>
 									<td><?php echo $value['nama_umkm'] ?></td>
-									<td><?php echo $exp ?></td>
+									<td><?php echo $value['exp_date']??'-' ?></td>
 									<td><?php echo $value['harga_produk'] ?></td>
 									<td>
 										<!-- <a href="#" data-toggle="modal" data-target="#modal-edit-produk-<?php echo $value['id_produk'] ?>">Edit</a> -->
 										<button class="btn btn-primary" data-target="#modal-edit-produk-<?php echo $value['id_produk'] ?>" data-toggle="modal"> Edit</button>
-										<!-- <button class="btn btn-danger" id="btn-min" data-target="#modal-tambah<?php echo $value['id_produk'] ?>" data-toggle="modal">-</button> -->
-										<button class="btn btn-success" id="btn-plus" data-target="#modal-tambah-<?php echo $value['id_produk'] ?>" data-toggle="modal">+</button>
+										<button class="btn btn-success" data-target="#modal-tambah-<?php echo $value['id_produk'] ?>" data-toggle="modal"> Stok</button>
 
 										<div class="modal" id="modal-tambah-<?php echo $value['id_produk'] ?>" tabindex="-1" role="dialog">
 											<div class="modal-dialog" role="document">
 												<div class="modal-content">
 												<div class="modal-header">
-													<h5 class="modal-title"><span id="nama"></span>Stok</h5>
+													<h5 class="modal-title"><span id="nama"></span>Stok <?php echo $value['nama_produk'] ?></h5>
 													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 													<span aria-hidden="true">&times;</span>
 													</button>
 												</div>
 												<div class="modal-body">
 													<form action="php/stok.php">
-														
-													<div class="form-group form-group-lg">
-														<label>Jumlah</label>
-														<input type="number" class="form-control" name="jumlah" id="jumlah-tambah">
+														<div class="form-group form-group-lg">
+															<label>Stok Awal</label>
+															<input type="number" class="form-control" name="stok_awal" value="<?php echo $value['total_stok'] ?>" aria-label="Disabled input example" disabled readonly>
+														</div>
+														<div class="form-group form-group-lg">
+															<label>Jumlah</label>
+															<input type="number" class="form-control" name="jumlah" id="jumlah-tambah">
+														</div>
+														<div class="form-group form-group-lg">
+															<label>Keterangan</label>
+															<input type="text" class="form-control" name="keterangan" >
+														</div>
+														<div class="form-group form-group-lg">
+															<label>Tanggal Kadaluarsa (opsional)</label>
+															<input type="date" class="form-control" name="exp" >
+														</div>
+														<input type="hidden" name="id_produk" value="<?php echo $value['id_produk'] ?>">
 													</div>
-													<div class="form-group form-group-lg">
-														<label>Keterangan</label>
-														<input type="text" class="form-control" name="keterangan" >
-													</div>
-													<div class="form-group form-group-lg">
-														<label>Tanggal Kadaluarsa (opsional)</label>
-														<input type="date" class="form-control" name="exp" >
-													</div>
-													<input type="hidden" name="tipe" id="tipe">
-													<input type="hidden" name="id_produk" value="<?php echo $value['id_produk'] ?>">
-												</div>
-												<div class="modal-footer">
-													<button  class="btn btn-primary" id="kirim-stok">Save changes</button>
+													<div class="modal-footer d-flex bd-highlight mb-3" style="width:100%">
+															<button type="button" class="btn btn-secondary mr-auto p-2 bd-highlight" data-dismiss="modal">Close</button>
+															<button class="btn btn-danger p-2 bd-highlight" name="min" id="btn-min"><i class="fa fa-minus"></i></button>
+															<button class="btn btn-success p-2 bd-highlight" name="plus" id="btn-plus"><i class="fa fa-plus" ></i></button>
+														</div>
+														<!-- <button  class="btn btn-primary" id="kirim-stok">Save changes</button> -->
 													</form>
-													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 												</div>
 												</div>
 											</div>
@@ -176,6 +186,10 @@ foreach ($kategori as $key => $value) {
             <label>Nama Produk</label>
             <input type="text" class="form-control" name="nama_produk" value="<?php echo $value['nama_produk'] ?>">
           </div>
+		  <div class="form-group">
+            <label>Stok Produk</label>
+            <input type="text"  class="form-control" name="stok_produk" value="<?php echo $value['jumal_stok_awal'] ?>">
+          </div>
           <div class="form-group">
             <label>Harga Produk</label>
             <input type="text"  class="form-control" name="harga_produk" value="<?php echo $value['harga_produk'] ?>">
@@ -184,14 +198,14 @@ foreach ($kategori as $key => $value) {
             <label>Satuan Produk</label>
             <input type="text" class="form-control" name="satuan_produk" value="<?php echo $value['satuan_produk'] ?>">
           </div>
-          <div class="form-group" >
+          <!-- <div class="form-group" >
             <label>Produksi Produk / Bulan</label>
             <input type="text" class="form-control" name="produksi_produk" value="<?php echo $value['produksi_produk'] ?>">
-          </div>
-		  <div class="form-group" >
+          </div> -->
+		  <!-- <div class="form-group" >
             <label>Tanggal Kadaluarsa</label>
 			<input type="date" name="tanggal-exp" id="tanggal-exp" class="form-control" required="" value="<?php echo $value['tgl_exp'] ?>">
-          </div>
+          </div> -->
           <div class="form-group">
             <label>Kategori Produk</label>
             <select class="form-control" name="kategori_produk">
@@ -244,6 +258,10 @@ foreach ($kategori as $key => $value) {
         		<label>Nama Produk</label>
         		<input type="text" required="" class="form-control" name="nama_produk">
         	</div>
+			<div class="form-group">
+        		<label>Stok Produk</label>
+        		<input type="text" required="" class="form-control" name="stok_produk">
+        	</div>
         	<div class="form-group">
         		<label>Harga Produk</label>
         		<input type="text" required="" class="form-control" name="harga_produk">
@@ -252,14 +270,14 @@ foreach ($kategori as $key => $value) {
         		<label>Satuan Produk</label>
         		<input type="text" required="" class="form-control" name="satuan_produk">
         	</div>
-        	<div class="form-group" >
+        	<!-- <div class="form-group" >
         		<label>Produksi Produk / Bulan</label>
         		<input type="text" required="" class="form-control" name="produksi_produk">
-        	</div>
-			<div class="form-group" >
+        	</div> -->
+			<!-- <div class="form-group" >
 				<label>Tanggal Kadaluarsa</label>
 				<input type="date" name="tanggal-exp" id="tanggal-exp" class="form-control" required="" value="<?php echo $value['tgl_exp'] ?>">
-			</div>
+			</div> -->
         	<div class="form-group">
         		<label>Kategori Produk</label>
         		<select class="form-control" required="" name="kategori_produk">

@@ -154,3 +154,4 @@ $produk = $db->manual_query("select * from produk left join diskon on diskon.id_
 		</div>
 	</div>	
 <?php endforeach ?>
+
