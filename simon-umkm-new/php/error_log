@@ -1,0 +1,592 @@
+[21-May-2021 07:50:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/perizinan.php(9): db->manual_query('delete from per...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[21-May-2021 07:57:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pgnh6835/public_html/simon-umkm-new/php/perizinan.php on line 12
+[21-May-2021 07:59:53 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pgnh6835/public_html/simon-umkm-new/php/perizinan.php on line 12
+[21-May-2021 08:00:28 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pgnh6835/public_html/simon-umkm-new/php/perizinan.php on line 12
+[21-May-2021 08:01:02 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[21-May-2021 09:52:36 Asia/Jakarta] PHP Warning:  unlink(images/3578010612630002_Rumah_kambing_surabaya_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[21-May-2021 09:52:36 Asia/Jakarta] PHP Warning:  unlink(images/3578010612630002_Rumah_kambing_surabaya_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[21-May-2021 09:52:36 Asia/Jakarta] PHP Warning:  unlink(images/3578010612630002_Rumah_kambing_surabaya_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[21-May-2021 12:28:20 Asia/Jakarta] PHP Warning:  unlink(images/357827209670002_Sri_Rejeki_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[21-May-2021 12:28:20 Asia/Jakarta] PHP Warning:  unlink(images/357827209670002_Sri_Rejeki_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[21-May-2021 12:28:20 Asia/Jakarta] PHP Warning:  unlink(images/357827209670002_Sri_Rejeki_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[21-May-2021 12:33:52 Asia/Jakarta] PHP Warning:  unlink(images/3578271505740003_Tempe_ITA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[22-May-2021 04:44:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/ttd.php(4): db->manual_query('select * from u...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[22-May-2021 11:17:29 Asia/Jakarta] PHP Warning:  unlink(images/3578294105640002_Hotimah_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[22-May-2021 11:17:30 Asia/Jakarta] PHP Warning:  unlink(images/3578294105640002_Hotimah_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[22-May-2021 11:17:30 Asia/Jakarta] PHP Warning:  unlink(images/3578294105640002_Hotimah_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 09:04:02 Asia/Jakarta] PHP Warning:  unlink(images/3578270101670001_Rahma_Jaya_Makmur_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 10:41:56 Asia/Jakarta] PHP Warning:  unlink(images/3578270101670001_Rahma_Jaya_Makmur_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 10:41:56 Asia/Jakarta] PHP Warning:  unlink(images/3578270101670001_Rahma_Jaya_Makmur_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 11:24:33 Asia/Jakarta] PHP Warning:  unlink(images/3578255211900001_Fia_Food_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 11:25:03 Asia/Jakarta] PHP Warning:  unlink(images/3578255211900001_Fia_Food_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 11:25:26 Asia/Jakarta] PHP Warning:  unlink(images/3578255211900001_Fia_Food_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 23:22:57 Asia/Jakarta] PHP Warning:  unlink(images/3578255909810001_Pamurbaya_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 23:24:27 Asia/Jakarta] PHP Warning:  unlink(images/3578255909810001_Pamurbaya_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-May-2021 23:28:11 Asia/Jakarta] PHP Warning:  unlink(images/3578255909810001_Pamurbaya_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 08:44:38 Asia/Jakarta] PHP Warning:  unlink(images/3578274803580001_UKM_Lansia_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 08:44:38 Asia/Jakarta] PHP Warning:  unlink(images/3578274803580001_UKM_Lansia_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 08:44:39 Asia/Jakarta] PHP Warning:  unlink(images/3578274803580001_UKM_Lansia_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 09:21:09 Asia/Jakarta] PHP Warning:  unlink(images/3312201006780001_Sedulur_papat_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 09:21:09 Asia/Jakarta] PHP Warning:  unlink(images/3312201006780001_Sedulur_papat_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 09:21:10 Asia/Jakarta] PHP Warning:  unlink(images/3312201006780001_Sedulur_papat_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 09:28:03 Asia/Jakarta] PHP Warning:  unlink(images/3578254802690002_Andyni_Collection_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 10:18:36 Asia/Jakarta] PHP Warning:  unlink(images/3578270605610001_UKM_Manunggal__foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 10:18:36 Asia/Jakarta] PHP Warning:  unlink(images/3578270605610001_UKM_Manunggal__foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 10:43:04 Asia/Jakarta] PHP Warning:  unlink(images/3578274310790002_Warung_renes_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 10:43:04 Asia/Jakarta] PHP Warning:  unlink(images/3578274310790002_Warung_renes_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 10:43:05 Asia/Jakarta] PHP Warning:  unlink(images/3578274310790002_Warung_renes_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:00:02 Asia/Jakarta] PHP Warning:  unlink(images/3578251610860001_Putri_Dewi_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:00:39 Asia/Jakarta] PHP Warning:  unlink(images/3578251610860001_Putri_Dewi_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:00:40 Asia/Jakarta] PHP Warning:  unlink(images/3578251610860001_Putri_Dewi_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:30:09 Asia/Jakarta] PHP Warning:  unlink(images/3578056102840001_Suryo_Suroboyo_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:30:09 Asia/Jakarta] PHP Warning:  unlink(images/3578056102840001_Suryo_Suroboyo_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:32:00 Asia/Jakarta] PHP Warning:  unlink(images/3578056102840001_Suryo_Suroboyo_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:39:35 Asia/Jakarta] PHP Warning:  unlink(images/3578275005600002_Cahaya_Melati_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:39:36 Asia/Jakarta] PHP Warning:  unlink(images/3578275005600002_Cahaya_Melati_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 11:39:36 Asia/Jakarta] PHP Warning:  unlink(images/3578275005600002_Cahaya_Melati_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 12:19:23 Asia/Jakarta] PHP Warning:  unlink(images/352501620484003_Kopi_Simbah_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 12:19:23 Asia/Jakarta] PHP Warning:  unlink(images/352501620484003_Kopi_Simbah_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 12:19:23 Asia/Jakarta] PHP Warning:  unlink(images/352501620484003_Kopi_Simbah_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 12:52:47 Asia/Jakarta] PHP Warning:  unlink(images/3578057112780002_Syifa_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 12:52:47 Asia/Jakarta] PHP Warning:  unlink(images/3578057112780002_Syifa_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 12:52:47 Asia/Jakarta] PHP Warning:  unlink(images/3578057112780002_Syifa_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 13:00:58 Asia/Jakarta] PHP Warning:  unlink(images/3578054110590002_Rujak_Cingur_Dhenana_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 13:00:58 Asia/Jakarta] PHP Warning:  unlink(images/3578054110590002_Rujak_Cingur_Dhenana_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 13:00:58 Asia/Jakarta] PHP Warning:  unlink(images/3578054110590002_Rujak_Cingur_Dhenana_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 13:47:03 Asia/Jakarta] PHP Warning:  unlink(images/3578054309750003_Dapoer_Denojo_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 13:47:03 Asia/Jakarta] PHP Warning:  unlink(images/3578054309750003_Dapoer_Denojo_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[25-May-2021 13:47:03 Asia/Jakarta] PHP Warning:  unlink(images/3578054309750003_Dapoer_Denojo_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 08:12:13 Asia/Jakarta] PHP Warning:  unlink(images/3578104205650002_Mak_kriuuuk_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 08:12:14 Asia/Jakarta] PHP Warning:  unlink(images/3578104205650002_Mak_kriuuuk_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 08:12:14 Asia/Jakarta] PHP Warning:  unlink(images/3578104205650002_Mak_kriuuuk_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 11:39:35 Asia/Jakarta] PHP Warning:  unlink(images/357822650970001_Dapur_Umma_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 11:39:36 Asia/Jakarta] PHP Warning:  unlink(images/357822650970001_Dapur_Umma_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 11:39:36 Asia/Jakarta] PHP Warning:  unlink(images/357822650970001_Dapur_Umma_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 17:40:51 Asia/Jakarta] PHP Warning:  unlink(images/3578270605610001_UKM_Manunggal__foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 17:57:38 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[27-May-2021 17:57:38 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[27-May-2021 17:59:19 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[27-May-2021 17:59:19 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[27-May-2021 17:59:35 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[27-May-2021 17:59:35 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[27-May-2021 20:35:22 Asia/Jakarta] PHP Warning:  unlink(images/3524145904920002_Hamis_Kitchen_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 20:35:22 Asia/Jakarta] PHP Warning:  unlink(images/3524145904920002_Hamis_Kitchen_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 20:35:23 Asia/Jakarta] PHP Warning:  unlink(images/3524145904920002_Hamis_Kitchen_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 20:48:09 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[27-May-2021 20:48:09 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[27-May-2021 22:00:51 Asia/Jakarta] PHP Warning:  unlink(images/3578226310900001_Pentol_Pren_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 22:00:51 Asia/Jakarta] PHP Warning:  unlink(images/3578226310900001_Pentol_Pren_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[27-May-2021 22:00:51 Asia/Jakarta] PHP Warning:  unlink(images/3578226310900001_Pentol_Pren_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 06:31:56 Asia/Jakarta] PHP Warning:  unlink(images/3578126103840002_Bunna’s_Kitchen_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 06:31:56 Asia/Jakarta] PHP Warning:  unlink(images/3578126103840002_Bunna’s_Kitchen_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 06:31:56 Asia/Jakarta] PHP Warning:  unlink(images/3578126103840002_Bunna’s_Kitchen_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 06:36:32 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[28-May-2021 08:39:49 Asia/Jakarta] PHP Warning:  unlink(images/3578226809740002_Pawon_Omah_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 08:39:49 Asia/Jakarta] PHP Warning:  unlink(images/3578226809740002_Pawon_Omah_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 08:39:49 Asia/Jakarta] PHP Warning:  unlink(images/3578226809740002_Pawon_Omah_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 08:52:17 Asia/Jakarta] PHP Warning:  unlink(images/3578124410690003_Mahmudah_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 08:52:17 Asia/Jakarta] PHP Warning:  unlink(images/3578124410690003_Mahmudah_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 08:52:17 Asia/Jakarta] PHP Warning:  unlink(images/3578124410690003_Mahmudah_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:16:42 Asia/Jakarta] PHP Warning:  unlink(images/3578225302590003_OMAH_KETAN_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:16:42 Asia/Jakarta] PHP Warning:  unlink(images/3578225302590003_OMAH_KETAN_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:16:42 Asia/Jakarta] PHP Warning:  unlink(images/3578225302590003_OMAH_KETAN_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:22:43 Asia/Jakarta] PHP Warning:  unlink(images/3578114701740001_Bougenville_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:22:43 Asia/Jakarta] PHP Warning:  unlink(images/3578114701740001_Bougenville_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:22:43 Asia/Jakarta] PHP Warning:  unlink(images/3578114701740001_Bougenville_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:27:12 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[28-May-2021 09:55:04 Asia/Jakarta] PHP Warning:  unlink(images/3578226105550001_Dapur_DINDHA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:55:04 Asia/Jakarta] PHP Warning:  unlink(images/3578226105550001_Dapur_DINDHA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 09:55:05 Asia/Jakarta] PHP Warning:  unlink(images/3578226105550001_Dapur_DINDHA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:03:23 Asia/Jakarta] PHP Warning:  unlink(images/3578035004630003_Enak_RKT_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:04:22 Asia/Jakarta] PHP Warning:  unlink(images/3578035004630003_Enak_RKT_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:04:49 Asia/Jakarta] PHP Warning:  unlink(images/3578035004630003_Enak_RKT_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:12:34 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[28-May-2021 10:12:34 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[28-May-2021 10:13:30 Asia/Jakarta] PHP Warning:  unlink(images/3578221307580002_MADOEMONGSO_BERKAH13_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:13:30 Asia/Jakarta] PHP Warning:  unlink(images/3578221307580002_MADOEMONGSO_BERKAH13_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:13:30 Asia/Jakarta] PHP Warning:  unlink(images/3578221307580002_MADOEMONGSO_BERKAH13_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:13:58 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[28-May-2021 10:14:21 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[28-May-2021 10:14:21 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[28-May-2021 10:18:05 Asia/Jakarta] PHP Warning:  unlink(images/3578236712700001_Kycin_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:18:06 Asia/Jakarta] PHP Warning:  unlink(images/3578236712700001_Kycin_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:18:06 Asia/Jakarta] PHP Warning:  unlink(images/3578236712700001_Kycin_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:36:47 Asia/Jakarta] PHP Warning:  unlink(images/3578100505720021_TOP_SAN__foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:36:47 Asia/Jakarta] PHP Warning:  unlink(images/3578100505720021_TOP_SAN__foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:36:48 Asia/Jakarta] PHP Warning:  unlink(images/3578100505720021_TOP_SAN__foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:41:54 Asia/Jakarta] PHP Warning:  unlink(images/3578031408770003_Sumano_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 10:44:37 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[28-May-2021 10:45:28 Asia/Jakarta] PHP Warning:  unlink(images/3578031408770003_Sumano_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 11:26:06 Asia/Jakarta] PHP Warning:  unlink(images/3578084703630004_Dapur_Jariku_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 11:26:06 Asia/Jakarta] PHP Warning:  unlink(images/3578084703630004_Dapur_Jariku_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 11:26:06 Asia/Jakarta] PHP Warning:  unlink(images/3578084703630004_Dapur_Jariku_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 11:56:11 Asia/Jakarta] PHP Warning:  unlink(images/3578107006740030_YUNAZ_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 11:56:11 Asia/Jakarta] PHP Warning:  unlink(images/3578107006740030_YUNAZ_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 11:56:12 Asia/Jakarta] PHP Warning:  unlink(images/3578107006740030_YUNAZ_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 13:17:11 Asia/Jakarta] PHP Warning:  unlink(images/3578085712590005_Gaul_Mina_Rahayu_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 13:17:11 Asia/Jakarta] PHP Warning:  unlink(images/3578085712590005_Gaul_Mina_Rahayu_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 13:17:11 Asia/Jakarta] PHP Warning:  unlink(images/3578085712590005_Gaul_Mina_Rahayu_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 14:16:48 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[28-May-2021 14:17:38 Asia/Jakarta] PHP Warning:  unlink(images/3578134608900003_Przako_Groceries_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 14:21:56 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[28-May-2021 14:21:56 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[28-May-2021 14:22:19 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[28-May-2021 14:22:19 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[28-May-2021 15:35:49 Asia/Jakarta] PHP Warning:  unlink(images/3578105310760012_ROSENDA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 15:35:49 Asia/Jakarta] PHP Warning:  unlink(images/3578105310760012_ROSENDA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 15:35:50 Asia/Jakarta] PHP Warning:  unlink(images/3578105310760012_ROSENDA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 17:35:26 Asia/Jakarta] PHP Warning:  unlink(images/3578116207720003_Rahayu_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 17:35:26 Asia/Jakarta] PHP Warning:  unlink(images/3578116207720003_Rahayu_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 17:35:26 Asia/Jakarta] PHP Warning:  unlink(images/3578116207720003_Rahayu_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-May-2021 20:07:54 Asia/Jakarta] PHP Warning:  unlink(images/3578226105550001_Dapoer_DINDHA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 07:27:40 Asia/Jakarta] PHP Warning:  unlink(images/3578224805540002_Agam_Kitchen_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 07:27:40 Asia/Jakarta] PHP Warning:  unlink(images/3578224805540002_Agam_Kitchen_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 07:43:36 Asia/Jakarta] PHP Warning:  unlink(images/3578224805540002_Agam_Kitchen_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 09:21:07 Asia/Jakarta] PHP Warning:  unlink(images/3374106904740002_SePisang_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 09:21:08 Asia/Jakarta] PHP Warning:  unlink(images/3374106904740002_SePisang_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 09:21:08 Asia/Jakarta] PHP Warning:  unlink(images/3374106904740002_SePisang_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 09:38:18 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[29-May-2021 09:38:18 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[29-May-2021 10:19:54 Asia/Jakarta] PHP Warning:  unlink(images/3578124411810004_PO_Gitas_Instan_Corner_(Mojito)_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 10:19:55 Asia/Jakarta] PHP Warning:  unlink(images/3578124411810004_PO_Gitas_Instan_Corner_(Mojito)_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 10:19:55 Asia/Jakarta] PHP Warning:  unlink(images/3578124411810004_PO_Gitas_Instan_Corner_(Mojito)_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 10:53:16 Asia/Jakarta] PHP Warning:  unlink(images/3578126010730001_AIA_Snack_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 10:53:16 Asia/Jakarta] PHP Warning:  unlink(images/3578126010730001_AIA_Snack_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 10:53:16 Asia/Jakarta] PHP Warning:  unlink(images/3578126010730001_AIA_Snack_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 11:27:43 Asia/Jakarta] PHP Warning:  unlink(images/3578125003830001_Big_2_Kitchen_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 11:27:43 Asia/Jakarta] PHP Warning:  unlink(images/3578125003830001_Big_2_Kitchen_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 11:27:43 Asia/Jakarta] PHP Warning:  unlink(images/3578125003830001_Big_2_Kitchen_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 13:49:18 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[29-May-2021 14:00:58 Asia/Jakarta] PHP Warning:  unlink(images/3578184405860001_UWAK_JAMUR_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:00:58 Asia/Jakarta] PHP Warning:  unlink(images/3578184405860001_UWAK_JAMUR_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:00:58 Asia/Jakarta] PHP Warning:  unlink(images/3578184405860001_UWAK_JAMUR_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:10:22 Asia/Jakarta] PHP Warning:  unlink(images/3578186204790001_CITA_RASA_ALAMI_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:10:22 Asia/Jakarta] PHP Warning:  unlink(images/3578186204790001_CITA_RASA_ALAMI_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:10:23 Asia/Jakarta] PHP Warning:  unlink(images/3578186204790001_CITA_RASA_ALAMI_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:11:59 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[29-May-2021 14:11:59 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[29-May-2021 14:20:33 Asia/Jakarta] PHP Warning:  unlink(images/3578185404680001_TATA_FOOD_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:20:33 Asia/Jakarta] PHP Warning:  unlink(images/3578185404680001_TATA_FOOD_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:20:33 Asia/Jakarta] PHP Warning:  unlink(images/3578185404680001_TATA_FOOD_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:28:29 Asia/Jakarta] PHP Warning:  unlink(images/3578185903620001_Bu_Nanik_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:28:29 Asia/Jakarta] PHP Warning:  unlink(images/3578185903620001_Bu_Nanik_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:28:29 Asia/Jakarta] PHP Warning:  unlink(images/3578185903620001_Bu_Nanik_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:39:07 Asia/Jakarta] PHP Warning:  unlink(images/3578185410580001_GLORIA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:39:07 Asia/Jakarta] PHP Warning:  unlink(images/3578185410580001_GLORIA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:39:07 Asia/Jakarta] PHP Warning:  unlink(images/3578185410580001_GLORIA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:47:02 Asia/Jakarta] PHP Warning:  unlink(images/3578185804680002_ABITHA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:47:02 Asia/Jakarta] PHP Warning:  unlink(images/3578185804680002_ABITHA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:47:02 Asia/Jakarta] PHP Warning:  unlink(images/3578185804680002_ABITHA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:53:56 Asia/Jakarta] PHP Warning:  unlink(images/3578184402830002_NITA_CAKE___COOKIES_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:53:56 Asia/Jakarta] PHP Warning:  unlink(images/3578184402830002_NITA_CAKE___COOKIES_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 14:53:56 Asia/Jakarta] PHP Warning:  unlink(images/3578184402830002_NITA_CAKE___COOKIES_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 15:03:31 Asia/Jakarta] PHP Warning:  unlink(images/3578206104810001_KABIR_FOOD_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 15:03:31 Asia/Jakarta] PHP Warning:  unlink(images/3578206104810001_KABIR_FOOD_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 15:03:31 Asia/Jakarta] PHP Warning:  unlink(images/3578206104810001_KABIR_FOOD_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 15:09:12 Asia/Jakarta] PHP Warning:  unlink(images/3515081310780004_ATLANTA_INDONESIA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 15:09:12 Asia/Jakarta] PHP Warning:  unlink(images/3515081310780004_ATLANTA_INDONESIA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 15:09:12 Asia/Jakarta] PHP Warning:  unlink(images/3515081310780004_ATLANTA_INDONESIA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 16:10:33 Asia/Jakarta] PHP Warning:  unlink(images/3578136304690004_Kedai_Lestari_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 16:10:33 Asia/Jakarta] PHP Warning:  unlink(images/3578136304690004_Kedai_Lestari_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 16:10:33 Asia/Jakarta] PHP Warning:  unlink(images/3578136304690004_Kedai_Lestari_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[29-May-2021 16:50:20 Asia/Jakarta] PHP Warning:  unlink(images/3515095105910002_Kebabperz_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[30-May-2021 15:23:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[30-May-2021 15:27:46 Asia/Jakarta] PHP Warning:  unlink(images/3578135412780004_Ronde_Karo_Angsle_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[30-May-2021 15:32:10 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[30-May-2021 15:32:10 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[31-May-2021 00:12:57 Asia/Jakarta] PHP Warning:  unlink(images/3578186706770001_KRIUSSH_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:12:57 Asia/Jakarta] PHP Warning:  unlink(images/3578186706770001_KRIUSSH_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:12:57 Asia/Jakarta] PHP Warning:  unlink(images/3578186706770001_KRIUSSH_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:18:16 Asia/Jakarta] PHP Warning:  unlink(images/3578184103660001_Dapur_Sedap_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:18:16 Asia/Jakarta] PHP Warning:  unlink(images/3578184103660001_Dapur_Sedap_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:18:16 Asia/Jakarta] PHP Warning:  unlink(images/3578184103660001_Dapur_Sedap_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:28:01 Asia/Jakarta] PHP Warning:  unlink(images/3578184510830002_JERUK_MANDIRI_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:28:01 Asia/Jakarta] PHP Warning:  unlink(images/3578184510830002_JERUK_MANDIRI_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:28:01 Asia/Jakarta] PHP Warning:  unlink(images/3578184510830002_JERUK_MANDIRI_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:33:22 Asia/Jakarta] PHP Warning:  unlink(images/3578016104620002_Dapur_Kartika_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:33:22 Asia/Jakarta] PHP Warning:  unlink(images/3578016104620002_Dapur_Kartika_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:33:22 Asia/Jakarta] PHP Warning:  unlink(images/3578016104620002_Dapur_Kartika_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:41:15 Asia/Jakarta] PHP Warning:  unlink(images/3578185203810003_ZAKE_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:41:15 Asia/Jakarta] PHP Warning:  unlink(images/3578185203810003_ZAKE_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:41:15 Asia/Jakarta] PHP Warning:  unlink(images/3578185203810003_ZAKE_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:46:05 Asia/Jakarta] PHP Warning:  unlink(images/3578186709620001_MURNI_CATERING_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:46:05 Asia/Jakarta] PHP Warning:  unlink(images/3578186709620001_MURNI_CATERING_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:52:36 Asia/Jakarta] PHP Warning:  unlink(images/3578184510620001_BUDI_VIBRA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:52:36 Asia/Jakarta] PHP Warning:  unlink(images/3578184510620001_BUDI_VIBRA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:52:36 Asia/Jakarta] PHP Warning:  unlink(images/3578184510620001_BUDI_VIBRA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:55:55 Asia/Jakarta] PHP Warning:  unlink(images/3578186512720001_HTF_Surabaya_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:55:55 Asia/Jakarta] PHP Warning:  unlink(images/3578186512720001_HTF_Surabaya_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 00:55:55 Asia/Jakarta] PHP Warning:  unlink(images/3578186512720001_HTF_Surabaya_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:05:39 Asia/Jakarta] PHP Warning:  unlink(images/081232083297_QIANDRA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:05:39 Asia/Jakarta] PHP Warning:  unlink(images/081232083297_QIANDRA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:05:39 Asia/Jakarta] PHP Warning:  unlink(images/081232083297_QIANDRA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:26:05 Asia/Jakarta] PHP Warning:  unlink(images/3578185609780003_Dapur_Mama_Nining_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:26:05 Asia/Jakarta] PHP Warning:  unlink(images/3578185609780003_Dapur_Mama_Nining_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:26:05 Asia/Jakarta] PHP Warning:  unlink(images/3578185609780003_Dapur_Mama_Nining_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:31:50 Asia/Jakarta] PHP Warning:  unlink(images/3578186109710001_IMAS_CATERING_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:31:50 Asia/Jakarta] PHP Warning:  unlink(images/3578186109710001_IMAS_CATERING_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 01:31:50 Asia/Jakarta] PHP Warning:  unlink(images/3578186109710001_IMAS_CATERING_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 04:39:54 Asia/Jakarta] PHP Warning:  unlink(images/3578126005740002_Kembang_Goyang_Chintia_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 04:39:54 Asia/Jakarta] PHP Warning:  unlink(images/3578126005740002_Kembang_Goyang_Chintia_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 04:39:54 Asia/Jakarta] PHP Warning:  unlink(images/3578126005740002_Kembang_Goyang_Chintia_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 04:49:59 Asia/Jakarta] PHP Warning:  unlink(images/3578124511740004_Farida_Bubur_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 04:49:59 Asia/Jakarta] PHP Warning:  unlink(images/3578124511740004_Farida_Bubur_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 04:49:59 Asia/Jakarta] PHP Warning:  unlink(images/3578124511740004_Farida_Bubur_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:10:54 Asia/Jakarta] PHP Warning:  unlink(images/3578126211510001_Fajar_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:10:54 Asia/Jakarta] PHP Warning:  unlink(images/3578126211510001_Fajar_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:10:54 Asia/Jakarta] PHP Warning:  unlink(images/3578126211510001_Fajar_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:22:52 Asia/Jakarta] PHP Warning:  unlink(images/3578125012730001_Kenora_Cake_and_Cookies_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:22:52 Asia/Jakarta] PHP Warning:  unlink(images/3578125012730001_Kenora_Cake_and_Cookies_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:22:52 Asia/Jakarta] PHP Warning:  unlink(images/3578125012730001_Kenora_Cake_and_Cookies_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:37:33 Asia/Jakarta] PHP Warning:  unlink(images/3678125109660001_Dahlia_3_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:37:33 Asia/Jakarta] PHP Warning:  unlink(images/3678125109660001_Dahlia_3_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 05:37:33 Asia/Jakarta] PHP Warning:  unlink(images/3678125109660001_Dahlia_3_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 08:12:37 Asia/Jakarta] PHP Warning:  unlink(images/3578134301580001_Gemilang_Jaya_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 08:22:08 Asia/Jakarta] PHP Warning:  unlink(images/3578134301580001_Gemilang_Jaya_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 08:22:08 Asia/Jakarta] PHP Warning:  unlink(images/3578134301580001_Gemilang_Jaya_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 08:48:21 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[31-May-2021 08:48:21 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[31-May-2021 09:20:15 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[31-May-2021 09:30:57 Asia/Jakarta] PHP Warning:  unlink(images/3578031408770003_Somano_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 09:51:36 Asia/Jakarta] PHP Warning:  unlink(images/3578134606690002_De_Fal_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 09:55:12 Asia/Jakarta] PHP Warning:  unlink(images/3578134606690002_De_Fal_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 10:04:16 Asia/Jakarta] PHP Warning:  unlink(images/3578134606690002_De_Fal_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 11:37:29 Asia/Jakarta] PHP Warning:  unlink(images/3578127105730002_Heni_kafood_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 11:37:29 Asia/Jakarta] PHP Warning:  unlink(images/3578127105730002_Heni_kafood_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 11:37:29 Asia/Jakarta] PHP Warning:  unlink(images/3578127105730002_Heni_kafood_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 11:37:40 Asia/Jakarta] PHP Warning:  unlink(images/3578105010820016_AQISA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 11:37:40 Asia/Jakarta] PHP Warning:  unlink(images/3578105010820016_AQISA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 11:37:40 Asia/Jakarta] PHP Warning:  unlink(images/3578105010820016_AQISA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 12:04:47 Asia/Jakarta] PHP Warning:  unlink(images/3578126202800001_Kemuning_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 12:04:47 Asia/Jakarta] PHP Warning:  unlink(images/3578126202800001_Kemuning_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 12:04:47 Asia/Jakarta] PHP Warning:  unlink(images/3578126202800001_Kemuning_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 12:40:57 Asia/Jakarta] PHP Warning:  unlink(images/3578256102610001_Rumpelas_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 12:41:32 Asia/Jakarta] PHP Warning:  unlink(images/3578256102610001_Rumpelas_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 12:51:54 Asia/Jakarta] PHP Warning:  unlink(images/3578256102610001_Rumpelas_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 13:11:49 Asia/Jakarta] PHP Warning:  unlink(images/3578132403790001_Sangtea_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 13:46:49 Asia/Jakarta] PHP Warning:  unlink(images/3517026911710001_Riri_Mantap_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 13:47:26 Asia/Jakarta] PHP Warning:  unlink(images/3517026911710001_Riri_Mantap_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 13:52:44 Asia/Jakarta] PHP Warning:  unlink(images/3517026911710001_Riri_Mantap_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 13:53:38 Asia/Jakarta] PHP Warning:  unlink(images/3515076906960004_Opi_Maju_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 13:54:15 Asia/Jakarta] PHP Warning:  unlink(images/3515076906960004_Opi_Maju_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 13:56:43 Asia/Jakarta] PHP Warning:  unlink(images/3515076906960004_Opi_Maju_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 15:00:28 Asia/Jakarta] PHP Warning:  unlink(images/3578025909490003_Dapur_flamboyan_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 15:13:40 Asia/Jakarta] PHP Warning:  unlink(images/3578094103710003_Elok_1_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 15:13:40 Asia/Jakarta] PHP Warning:  unlink(images/3578094103710003_Elok_1_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 15:13:41 Asia/Jakarta] PHP Warning:  unlink(images/3578094103710003_Elok_1_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 15:25:34 Asia/Jakarta] PHP Warning:  unlink(images/3578095303600002_MOMMY_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 15:25:34 Asia/Jakarta] PHP Warning:  unlink(images/3578095303600002_MOMMY_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 15:25:35 Asia/Jakarta] PHP Warning:  unlink(images/3578095303600002_MOMMY_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[31-May-2021 15:34:50 Asia/Jakarta] PHP Warning:  imagejpeg(images/produk/415_Bistik_Lidah_/_Rolade_foto_produk.jpeg): failed to open stream: No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[31-May-2021 15:40:30 Asia/Jakarta] PHP Warning:  unlink(images/3578096903720001_Latrini_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[01-Jun-2021 12:25:44 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[01-Jun-2021 12:25:44 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[01-Jun-2021 12:26:23 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[01-Jun-2021 12:26:23 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[01-Jun-2021 12:27:12 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[01-Jun-2021 12:27:12 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[02-Jun-2021 07:32:50 Asia/Jakarta] PHP Warning:  unlink(images/3578225712590004_RAWON_BU_AGUS_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 07:32:50 Asia/Jakarta] PHP Warning:  unlink(images/3578225712590004_RAWON_BU_AGUS_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 07:32:50 Asia/Jakarta] PHP Warning:  unlink(images/3578225712590004_RAWON_BU_AGUS_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 07:57:44 Asia/Jakarta] PHP Warning:  unlink(images/3578067107700005_Berkat_Alam_Nusantara_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 07:57:44 Asia/Jakarta] PHP Warning:  unlink(images/3578067107700005_Berkat_Alam_Nusantara_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 07:57:44 Asia/Jakarta] PHP Warning:  unlink(images/3578067107700005_Berkat_Alam_Nusantara_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 08:34:44 Asia/Jakarta] PHP Warning:  unlink(images/3578242201760002_Reka_Food_Indonesia_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 08:44:25 Asia/Jakarta] PHP Warning:  unlink(images/3578235408730001_Rajungan_bu_Riza_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 08:44:25 Asia/Jakarta] PHP Warning:  unlink(images/3578235408730001_Rajungan_bu_Riza_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 08:44:25 Asia/Jakarta] PHP Warning:  unlink(images/3578235408730001_Rajungan_bu_Riza_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 09:17:20 Asia/Jakarta] PHP Warning:  unlink(images/3578244502550001_DEDE_SATOE_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 09:17:20 Asia/Jakarta] PHP Warning:  unlink(images/3578244502550001_DEDE_SATOE_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 09:17:20 Asia/Jakarta] PHP Warning:  unlink(images/3578244502550001_DEDE_SATOE_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 10:17:29 Asia/Jakarta] PHP Warning:  unlink(images/3578237006620010_Tempe_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 10:17:29 Asia/Jakarta] PHP Warning:  unlink(images/3578237006620010_Tempe_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 10:17:29 Asia/Jakarta] PHP Warning:  unlink(images/3578237006620010_Tempe_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 12:18:03 Asia/Jakarta] PHP Warning:  unlink(images/3578296406760001_Pawon_Yes!_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 12:18:03 Asia/Jakarta] PHP Warning:  unlink(images/3578296406760001_Pawon_Yes!_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 12:18:03 Asia/Jakarta] PHP Warning:  unlink(images/3578296406760001_Pawon_Yes!_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 12:18:47 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[02-Jun-2021 13:33:19 Asia/Jakarta] PHP Warning:  unlink(images/3578094805720001_Setia_Tempe_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 13:33:19 Asia/Jakarta] PHP Warning:  unlink(images/3578094805720001_Setia_Tempe_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 13:33:19 Asia/Jakarta] PHP Warning:  unlink(images/3578094805720001_Setia_Tempe_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 16:38:32 Asia/Jakarta] PHP Warning:  unlink(images/3578096103630001_Dua_Putra_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 16:38:32 Asia/Jakarta] PHP Warning:  unlink(images/3578096103630001_Dua_Putra_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 16:38:32 Asia/Jakarta] PHP Warning:  unlink(images/3578096103630001_Dua_Putra_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[02-Jun-2021 16:46:30 Asia/Jakarta] PHP Warning:  unlink(images/3578266006780004_Icaia_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 08:08:41 Asia/Jakarta] PHP Warning:  unlink(images/3578095009650002_Tegal_Makmur_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 08:08:41 Asia/Jakarta] PHP Warning:  unlink(images/3578095009650002_Tegal_Makmur_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 08:08:41 Asia/Jakarta] PHP Warning:  unlink(images/3578095009650002_Tegal_Makmur_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 09:20:57 Asia/Jakarta] PHP Warning:  unlink(images/3578256412550002_Kiki_Mas_Bakery,_donut_and_cake_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 09:35:17 Asia/Jakarta] PHP Warning:  unlink(images/3578256412550002_Kiki_Mas_Bakery,_donut_and_cake_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 09:55:21 Asia/Jakarta] PHP Warning:  unlink(images/3578085005630007_Mekar_Melati_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 10:01:38 Asia/Jakarta] PHP Warning:  unlink(images/3578085005630007_Mekar_Melati_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 10:03:04 Asia/Jakarta] PHP Warning:  unlink(images/3578085005630007_Mekar_Melati_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 10:04:44 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[03-Jun-2021 10:56:29 Asia/Jakarta] PHP Warning:  unlink(images/3578036912660001_Oryza_Telur_Asin_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 10:57:08 Asia/Jakarta] PHP Warning:  unlink(images/3578036912660001_Oryza_Telur_Asin_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 10:57:41 Asia/Jakarta] PHP Warning:  unlink(images/3578036912660001_Oryza_Telur_Asin_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 11:00:46 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[03-Jun-2021 11:01:59 Asia/Jakarta] PHP Warning:  unlink(images/3578_Tiga_Putri_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 11:02:45 Asia/Jakarta] PHP Warning:  unlink(images/3578_Tiga_Putri_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:17:30 Asia/Jakarta] PHP Warning:  unlink(images/3578056708950001_73HZ._foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:17:30 Asia/Jakarta] PHP Warning:  unlink(images/3578056708950001_73HZ._foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:17:30 Asia/Jakarta] PHP Warning:  unlink(images/3578056708950001_73HZ._foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:21:51 Asia/Jakarta] PHP Warning:  unlink(images/3578055711650002_Tiga_Putri_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:21:51 Asia/Jakarta] PHP Warning:  unlink(images/3578055711650002_Tiga_Putri_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:21:52 Asia/Jakarta] PHP Warning:  unlink(images/3578055711650002_Tiga_Putri_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:31:47 Asia/Jakarta] PHP Warning:  unlink(images/3578144706820009_Capella_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:31:47 Asia/Jakarta] PHP Warning:  unlink(images/3578144706820009_Capella_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:31:47 Asia/Jakarta] PHP Warning:  unlink(images/3578144706820009_Capella_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:38:16 Asia/Jakarta] PHP Warning:  unlink(images/3578145907780005_Yuli_Food_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:38:16 Asia/Jakarta] PHP Warning:  unlink(images/3578145907780005_Yuli_Food_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:38:16 Asia/Jakarta] PHP Warning:  unlink(images/3578145907780005_Yuli_Food_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 12:41:39 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[03-Jun-2021 12:41:39 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[03-Jun-2021 12:42:19 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[03-Jun-2021 12:42:19 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[03-Jun-2021 12:42:53 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[03-Jun-2021 12:42:53 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[03-Jun-2021 13:00:31 Asia/Jakarta] PHP Warning:  unlink(images/3578295007720004_Bu_Hanif_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 13:00:31 Asia/Jakarta] PHP Warning:  unlink(images/3578295007720004_Bu_Hanif_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 13:37:17 Asia/Jakarta] PHP Warning:  unlink(images/3578035005630002_TEGAR_MANDIRI_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 13:37:46 Asia/Jakarta] PHP Warning:  unlink(images/3578035005630002_TEGAR_MANDIRI_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 13:39:56 Asia/Jakarta] PHP Warning:  unlink(images/3578035005630002_TEGAR_MANDIRI_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 14:28:03 Asia/Jakarta] PHP Warning:  unlink(images/3578105208820004_My__Juice__foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 14:28:03 Asia/Jakarta] PHP Warning:  unlink(images/3578105208820004_My__Juice__foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 14:28:03 Asia/Jakarta] PHP Warning:  unlink(images/3578105208820004_My__Juice__foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 14:29:34 Asia/Jakarta] PHP Warning:  unlink(images/3578054612750006_Kedai_Risol_Mayo_Amelia_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 14:29:34 Asia/Jakarta] PHP Warning:  unlink(images/3578054612750006_Kedai_Risol_Mayo_Amelia_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 14:29:34 Asia/Jakarta] PHP Warning:  unlink(images/3578054612750006_Kedai_Risol_Mayo_Amelia_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 15:38:17 Asia/Jakarta] PHP Warning:  unlink(images/3578106103730004_KACBAW_JAYA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 15:38:17 Asia/Jakarta] PHP Warning:  unlink(images/3578106103730004_KACBAW_JAYA_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 15:38:17 Asia/Jakarta] PHP Warning:  unlink(images/3578106103730004_KACBAW_JAYA_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 15:49:31 Asia/Jakarta] PHP Warning:  unlink(images/3578236909760001_Subur_makmur_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 15:49:31 Asia/Jakarta] PHP Warning:  unlink(images/3578236909760001_Subur_makmur_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[03-Jun-2021 15:49:31 Asia/Jakarta] PHP Warning:  unlink(images/3578236909760001_Subur_makmur_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 07:47:41 Asia/Jakarta] PHP Warning:  unlink(images/3578256412550002_Kiki_Mas_Bakery,_donut_and_cake_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 09:36:55 Asia/Jakarta] PHP Warning:  unlink(images/3578035610720001_Jamu_bunda_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 09:36:55 Asia/Jakarta] PHP Warning:  unlink(images/3578035610720001_Jamu_bunda_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 09:36:55 Asia/Jakarta] PHP Warning:  unlink(images/3578035610720001_Jamu_bunda_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 10:43:18 Asia/Jakarta] PHP Warning:  unlink(images/3578106206630006_Barokah_Kusuma_Jaya___Djeng_Sri_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 10:43:18 Asia/Jakarta] PHP Warning:  unlink(images/3578106206630006_Barokah_Kusuma_Jaya___Djeng_Sri_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 10:43:19 Asia/Jakarta] PHP Warning:  unlink(images/3578106206630006_Barokah_Kusuma_Jaya___Djeng_Sri_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 13:44:05 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[04-Jun-2021 14:04:56 Asia/Jakarta] PHP Warning:  unlink(images/3578235307720003_Larise_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 14:04:56 Asia/Jakarta] PHP Warning:  unlink(images/3578235307720003_Larise_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 14:04:56 Asia/Jakarta] PHP Warning:  unlink(images/3578235307720003_Larise_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 15:24:15 Asia/Jakarta] PHP Warning:  unlink(images/3578236702820001_Lumpia_mama_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 15:24:15 Asia/Jakarta] PHP Warning:  unlink(images/3578236702820001_Lumpia_mama_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[04-Jun-2021 15:24:15 Asia/Jakarta] PHP Warning:  unlink(images/3578236702820001_Lumpia_mama_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[05-Jun-2021 08:22:25 Asia/Jakarta] PHP Warning:  unlink(images/3578226910650005_Youmi_Stick_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[05-Jun-2021 08:22:25 Asia/Jakarta] PHP Warning:  unlink(images/3578226910650005_Youmi_Stick_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[05-Jun-2021 08:22:25 Asia/Jakarta] PHP Warning:  unlink(images/3578226910650005_Youmi_Stick_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 07:53:34 Asia/Jakarta] PHP Warning:  unlink(images/3578236604680001_Suci_snack_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 07:53:34 Asia/Jakarta] PHP Warning:  unlink(images/3578236604680001_Suci_snack_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 07:53:34 Asia/Jakarta] PHP Warning:  unlink(images/3578236604680001_Suci_snack_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 08:09:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:10:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:10:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:10:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:10:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:11:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:11:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:20:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:20:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:23:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:33:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:46:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php(59): db->manual_query('select id_umkm ...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[07-Jun-2021 08:59:20 Asia/Jakarta] PHP Warning:  unlink(images/3578100110760011_D_efin_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 08:59:20 Asia/Jakarta] PHP Warning:  unlink(images/3578100110760011_D_efin_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 08:59:20 Asia/Jakarta] PHP Warning:  unlink(images/3578100110760011_D_efin_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 10:32:05 Asia/Jakarta] PHP Warning:  unlink(images/3578236811650001_Bjl_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 10:32:05 Asia/Jakarta] PHP Warning:  unlink(images/3578236811650001_Bjl_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 10:32:06 Asia/Jakarta] PHP Warning:  unlink(images/3578236811650001_Bjl_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 11:17:39 Asia/Jakarta] PHP Warning:  unlink(images/3578235804960002_Cemilan_sore_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 11:17:39 Asia/Jakarta] PHP Warning:  unlink(images/3578235804960002_Cemilan_sore_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[07-Jun-2021 11:17:39 Asia/Jakarta] PHP Warning:  unlink(images/3578235804960002_Cemilan_sore_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[08-Jun-2021 08:26:39 Asia/Jakarta] PHP Warning:  unlink(images/3578086701720007_Lezat_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[08-Jun-2021 08:26:39 Asia/Jakarta] PHP Warning:  unlink(images/3578086701720007_Lezat_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[08-Jun-2021 08:26:39 Asia/Jakarta] PHP Warning:  unlink(images/3578086701720007_Lezat_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[08-Jun-2021 13:20:33 Asia/Jakarta] PHP Warning:  unlink(images/3578104506630011_Mbok_Yana__foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 08:22:52 Asia/Jakarta] PHP Warning:  unlink(images/3578080404650011_Affan_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 08:22:53 Asia/Jakarta] PHP Warning:  unlink(images/3578080404650011_Affan_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 08:22:53 Asia/Jakarta] PHP Warning:  unlink(images/3578080404650011_Affan_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 09:12:07 Asia/Jakarta] PHP Warning:  unlink(images/3578085008760009_Sendok_kayu_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 09:12:07 Asia/Jakarta] PHP Warning:  unlink(images/3578085008760009_Sendok_kayu_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:04:16 Asia/Jakarta] PHP Warning:  unlink(images/3578264102740001_sholichatin_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:04:16 Asia/Jakarta] PHP Warning:  unlink(images/3578264102740001_sholichatin_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:06:46 Asia/Jakarta] PHP Warning:  unlink(images/3578104309710012_Reso_Berkah__foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:11:06 Asia/Jakarta] PHP Warning:  unlink(images/3578104205770013_Kaltar_66_Frozen_food_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:11:06 Asia/Jakarta] PHP Warning:  unlink(images/3578104205770013_Kaltar_66_Frozen_food_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:11:06 Asia/Jakarta] PHP Warning:  unlink(images/3578104205770013_Kaltar_66_Frozen_food_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:21:36 Asia/Jakarta] PHP Warning:  unlink(images/3578105306660006_toeToen_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:39:39 Asia/Jakarta] PHP Warning:  unlink(images/3578084909600002_Lumintu_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:39:39 Asia/Jakarta] PHP Warning:  unlink(images/3578084909600002_Lumintu_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:39:39 Asia/Jakarta] PHP Warning:  unlink(images/3578084909600002_Lumintu_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 10:45:48 Asia/Jakarta] PHP Warning:  unlink(images/3578305310830001_Riko_Jaya_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 11:29:10 Asia/Jakarta] PHP Warning:  unlink(images/3578284504820001_Glamour_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[09-Jun-2021 11:29:10 Asia/Jakarta] PHP Warning:  unlink(images/3578284504820001_Glamour_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 08:20:16 Asia/Jakarta] PHP Warning:  unlink(images/3578084609640006_Kunir_asem_cak_di_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 08:20:16 Asia/Jakarta] PHP Warning:  unlink(images/3578084609640006_Kunir_asem_cak_di_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 09:30:28 Asia/Jakarta] PHP Warning:  unlink(images/3578085205580001_Bogana_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 09:30:28 Asia/Jakarta] PHP Warning:  unlink(images/3578085205580001_Bogana_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 10:44:49 Asia/Jakarta] PHP Warning:  unlink(images/3578254809710001_Ilhami_Jaya_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 10:45:19 Asia/Jakarta] PHP Warning:  unlink(images/3578254809710001_Ilhami_Jaya_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 10:45:47 Asia/Jakarta] PHP Warning:  unlink(images/3578254809710001_Ilhami_Jaya_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 10:46:39 Asia/Jakarta] PHP Warning:  unlink(images/3578075805790002__Restu_Ananda_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 10:46:39 Asia/Jakarta] PHP Warning:  unlink(images/3578075805790002__Restu_Ananda_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 10:46:39 Asia/Jakarta] PHP Warning:  unlink(images/3578075805790002__Restu_Ananda_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 10:51:25 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[10-Jun-2021 10:51:25 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[10-Jun-2021 11:36:14 Asia/Jakarta] PHP Warning:  unlink(images/3578104505710015_D_Nis_Donat_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 11:36:14 Asia/Jakarta] PHP Warning:  unlink(images/3578104505710015_D_Nis_Donat_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 11:36:14 Asia/Jakarta] PHP Warning:  unlink(images/3578104505710015_D_Nis_Donat_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Jun-2021 13:51:00 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[10-Jun-2021 13:51:13 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
+[11-Jun-2021 09:27:46 Asia/Jakarta] PHP Warning:  unlink(images/3578224903630002_VEMAR_UMVA_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[11-Jun-2021 15:34:49 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[11-Jun-2021 15:34:49 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[12-Jun-2021 13:00:18 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[12-Jun-2021 13:00:18 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[12-Jun-2021 13:11:20 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[12-Jun-2021 13:11:20 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[12-Jun-2021 13:13:49 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[12-Jun-2021 13:13:49 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[12-Jun-2021 13:14:34 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[12-Jun-2021 13:14:34 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[12-Jun-2021 13:20:49 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[12-Jun-2021 13:20:49 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[12-Jun-2021 13:31:13 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[12-Jun-2021 13:31:13 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[15-Jun-2021 13:24:59 Asia/Jakarta] PHP Warning:  unlink(images/3578237108540001_Dapur_Tua_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[15-Jun-2021 13:24:59 Asia/Jakarta] PHP Warning:  unlink(images/3578237108540001_Dapur_Tua_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[15-Jun-2021 13:24:59 Asia/Jakarta] PHP Warning:  unlink(images/3578237108540001_Dapur_Tua_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[15-Jun-2021 13:35:43 Asia/Jakarta] PHP Warning:  unlink(images/3578234701710003_Dapur_Mam_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[15-Jun-2021 13:35:43 Asia/Jakarta] PHP Warning:  unlink(images/3578234701710003_Dapur_Mam_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[15-Jun-2021 13:35:43 Asia/Jakarta] PHP Warning:  unlink(images/3578234701710003_Dapur_Mam_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[15-Jun-2021 16:07:23 Asia/Jakarta] PHP Warning:  unlink(images/3578295007720004_Catering_Bu_Hanif_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[15-Jun-2021 16:14:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/stok.php(17): db->manual_query('select * from s...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[15-Jun-2021 16:14:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/stok.php(17): db->manual_query('select * from s...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[15-Jun-2021 16:14:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/stok.php(17): db->manual_query('select * from s...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[15-Jun-2021 16:14:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/pgnh6835/public_html/simon-umkm-new/config/db.php:36
+Stack trace:
+#0 /home/pgnh6835/public_html/simon-umkm-new/php/stok.php(17): db->manual_query('select * from s...')
+#1 {main}
+  thrown in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 36
+[17-Jun-2021 14:17:01 Asia/Jakarta] PHP Warning:  unlink(images/3578235008690002_Juus_suugeer_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[17-Jun-2021 14:17:01 Asia/Jakarta] PHP Warning:  unlink(images/3578235008690002_Juus_suugeer_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[17-Jun-2021 14:17:01 Asia/Jakarta] PHP Warning:  unlink(images/3578235008690002_Juus_suugeer_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[17-Jun-2021 14:23:49 Asia/Jakarta] PHP Warning:  unlink(images/3578234505470001_Mulia_Berkarya_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[17-Jun-2021 14:23:49 Asia/Jakarta] PHP Warning:  unlink(images/3578234505470001_Mulia_Berkarya_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[17-Jun-2021 14:23:49 Asia/Jakarta] PHP Warning:  unlink(images/3578234505470001_Mulia_Berkarya_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[18-Jun-2021 09:49:45 Asia/Jakarta] PHP Warning:  unlink(images/3578097006710009_Kreatif_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[18-Jun-2021 09:49:46 Asia/Jakarta] PHP Warning:  unlink(images/3578097006710009_Kreatif_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[18-Jun-2021 09:49:46 Asia/Jakarta] PHP Warning:  unlink(images/3578097006710009_Kreatif_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[18-Jun-2021 13:21:02 Asia/Jakarta] PHP Warning:  unlink(images/3578096306620005_Ar_Rohma_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[18-Jun-2021 13:21:02 Asia/Jakarta] PHP Warning:  unlink(images/3578096306620005_Ar_Rohma_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[18-Jun-2021 13:21:02 Asia/Jakarta] PHP Warning:  unlink(images/3578096306620005_Ar_Rohma_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 07:52:07 Asia/Jakarta] PHP Warning:  unlink(images/3578226410670001_Rozifa_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 07:52:07 Asia/Jakarta] PHP Warning:  unlink(images/3578226410670001_Rozifa_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 07:52:07 Asia/Jakarta] PHP Warning:  unlink(images/3578226410670001_Rozifa_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:04:19 Asia/Jakarta] PHP Warning:  unlink(images/3578226004680001_La_Risto_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:04:19 Asia/Jakarta] PHP Warning:  unlink(images/3578226004680001_La_Risto_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:04:19 Asia/Jakarta] PHP Warning:  unlink(images/3578226004680001_La_Risto_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:12:23 Asia/Jakarta] PHP Warning:  unlink(images/3578224511630002_Rensi_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:12:23 Asia/Jakarta] PHP Warning:  unlink(images/3578224511630002_Rensi_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:12:23 Asia/Jakarta] PHP Warning:  unlink(images/3578224511630002_Rensi_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:22:46 Asia/Jakarta] PHP Warning:  unlink(images/3578224212540001_Abdullah_Catering_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:22:46 Asia/Jakarta] PHP Warning:  unlink(images/3578224212540001_Abdullah_Catering_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:35:16 Asia/Jakarta] PHP Warning:  unlink(images/3578234801650001_MomAst_Pastry_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:35:16 Asia/Jakarta] PHP Warning:  unlink(images/3578234801650001_MomAst_Pastry_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[28-Jun-2021 08:35:16 Asia/Jakarta] PHP Warning:  unlink(images/3578234801650001_MomAst_Pastry_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[08-Jul-2021 21:03:19 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[08-Jul-2021 21:03:19 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[08-Jul-2021 21:05:15 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[08-Jul-2021 21:05:15 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[08-Jul-2021 21:05:32 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[08-Jul-2021 21:05:32 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[08-Jul-2021 21:08:59 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[08-Jul-2021 21:08:59 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[08-Jul-2021 21:09:20 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[08-Jul-2021 21:09:20 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[08-Jul-2021 21:09:46 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[08-Jul-2021 21:09:46 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[09-Jul-2021 18:16:28 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[09-Jul-2021 18:16:28 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[24-Jul-2021 13:49:11 Asia/Jakarta] PHP Warning:  unlink(images/3578237008690001_Yasmina_kue_foto_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-Jul-2021 13:49:11 Asia/Jakarta] PHP Warning:  unlink(images/3578237008690001_Yasmina_kue_foto_ktp_pemilik_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[24-Jul-2021 13:49:11 Asia/Jakarta] PHP Warning:  unlink(images/3578237008690001_Yasmina_kue_foto_produk_umkm.jpeg): No such file or directory in /home/pgnh6835/public_html/simon-umkm-new/php/umkm.php on line 101
+[10-Aug-2021 12:50:17 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[10-Aug-2021 12:50:17 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[10-Aug-2021 12:51:35 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[10-Aug-2021 12:51:35 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[10-Aug-2021 12:52:29 Asia/Jakarta] PHP Warning:  getimagesize(): Filename cannot be empty in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 6
+[10-Aug-2021 12:52:29 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home/pgnh6835/public_html/simon-umkm-new/php/produk.php on line 17
+[01-Sep-2021 15:24:41 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/pgnh6835/public_html/simon-umkm-new/config/db.php on line 40
